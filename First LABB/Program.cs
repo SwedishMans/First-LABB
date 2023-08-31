@@ -9,6 +9,10 @@
             Console.WriteLine("Skriv en Bokstav nedan");
             
             string guess1 = Console.ReadLine();
+
+            string[] guesses = new string[5];
+
+            guesses[0] = guess1;
             
             string[] Bokstaver = new string[3];
 
@@ -18,11 +22,14 @@
 
             //Array with all the letters
 
-            if (guess1 == Bokstaver[0])
+            if (guesses = Bokstaver[0])
             {
                 Console.WriteLine("b");
             }
-
+            else if (guesses = Bokstaver[1])
+            {
+                Console.WriteLine("o");
+            }
            
             
         }
