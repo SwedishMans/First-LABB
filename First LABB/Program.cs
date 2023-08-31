@@ -7,6 +7,7 @@
             
             Console.WriteLine("Välkommen till hänga gubbe!");
             Console.WriteLine("Skriv en Bokstav nedan");
+            
             string guess1 = Console.ReadLine();
             
             string[] Bokstaver = new string[3];
@@ -17,7 +18,7 @@
 
             //Array with all the letters
 
-            if (guess1 = "b")
+            if (guess1 == Bokstaver[0])
             {
                 Console.WriteLine("b");
             }
