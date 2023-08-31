@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Let's make HÄNGA GUBBE!");
+            Console.WriteLine("bruh");
         }
     }
 }
