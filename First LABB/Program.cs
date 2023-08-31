@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Let's make HÄNGA GUBBE!");
-            Console.WriteLine("bruh");
+            
+            Console.WriteLine("Välkommen till hänga gubbe!");
+            Console.WriteLine("Skriv en Bokstav nedan");
+            Console.ReadLine();
         }
     }
 }
